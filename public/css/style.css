@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color:beige;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 1000px;
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 20px;
+}
+h1{
+    font-size: 23px;
+    color: red;
+    padding: 20px;
+    border-bottom: 1px solid #ffabff;
+
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    border-collapse: collapse;
+ 
+}
+   
+    thead tr td{
+        background-color: lightslategray;
+        color: white;
+    }
+table tbody td{
+    padding: 5px;
+}
+table tbody tr:nth-child(even){
+    background-color: rgb(201, 208, 214);
+}
+.edit,.delete{
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.delete{
+    background-color: red;
+}
